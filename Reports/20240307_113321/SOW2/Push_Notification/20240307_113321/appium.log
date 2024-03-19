@@ -1,0 +1,427 @@
+[Appium] Welcome to Appium v1.22.3
+[Appium] Non-default server args:
+[Appium]   port: 54747
+[Appium]   loglevel: info
+[Appium]   tmpDir: /var/folders/4h/21hlj67943q66sl5hpmk8pb80000gn/T//Katalon/Appium/Temp1709782411203
+[Appium]   chromedriverPort: 54748
+[Appium] Deprecated server args:
+[Appium]   --chromedriver-port => --default-capabilities
+[Appium] Default capabilities, which will be added to each request unless overridden by desired capabilities:
+[Appium]   chromedriverPort: 54748
+[Appium] Appium REST http interface listener started on 0.0.0.0:54747
+[HTTP] --> GET /wd/hub/status
+[HTTP] {}
+[HTTP] <-- GET /wd/hub/status 200 4 ms - 68
+[HTTP] 
+[HTTP] --> POST /wd/hub/session
+[HTTP] {"desiredCapabilities":{"appPackage":"com.android.settings","noReset":true,"appWaitActivity":"","deviceId":"","deviceName":"emulator-5554 (sdk_gphone64_arm64 - Android 13)","platform":"ANDROID","appActivity":".Settings","newCommandTimeout":"10000","platformVersion":"13","autoGrantPermission":true,"automationName":"uiautomator2","autoGrantPermissions":true,"platformName":"Android","udid":"emulator-5554","systemPort":8258},"capabilities":{"firstMatch":[{"appium:appActivity":".Settings","appium:appPackage":"com.android.settings","appium:appWaitActivity":"","autoGrantPermission":true,"appium:autoGrantPermissions":true,"appium:automationName":"uiautomator2","deviceId":"","appium:deviceName":"emulator-5554 (sdk_gphone64_arm64 - Android 13)","appium:newCommandTimeout":"10000","appium:noReset":true,"platform":"ANDROID","platformName":"android","appium:platformVersion":"13","appium:systemPort":8258,"appium:udid":"emulator-5554"}]}}
+[BaseDriver] The following capabilities are not standard capabilities and should have an extension prefix:
+[BaseDriver]   autoGrantPermission
+[BaseDriver]   deviceId
+[BaseDriver]   platform
+[BaseDriver]   chromedriverPort
+[BaseDriver] Number capability passed in as string. Functionality may be compromised.
+[Appium] Appium v1.22.3 creating new AndroidUiautomator2Driver (v1.75.0) session
+[BaseDriver] Number capability passed in as string. Functionality may be compromised.
+[BaseDriver] Capability 'newCommandTimeout' changed from string ('10000') to integer (10000). This may cause unexpected behavior
+[BaseDriver] The following capabilities were provided, but are not recognized by Appium:
+[BaseDriver]   autoGrantPermission
+[BaseDriver]   deviceId
+[BaseDriver]   platform
+[BaseDriver] Session created with session id: a1ab0513-de5f-4eba-b1a0-214797e4f0a6
+[UiAutomator2] Starting 'com.android.settings' directly on the device
+[ADB] Found 1 'build-tools' folders under '/Users/00145409nuralianatasha/.katalon/tools/android_sdk' (newest first):
+[ADB]     /Users/00145409nuralianatasha/.katalon/tools/android_sdk/build-tools/29.0.3
+[ADB] Using 'adb' from '/Users/00145409nuralianatasha/.katalon/tools/android_sdk/platform-tools/adb'
+[AndroidDriver] Retrieving device list
+[AndroidDriver] Using device: emulator-5554
+[ADB] Using 'adb' from '/Users/00145409nuralianatasha/.katalon/tools/android_sdk/platform-tools/adb'
+[ADB] Getting device platform version
+[UiAutomator2] Relaxing hidden api policy
+[AndroidDriver] No app sent in, not parsing package/activity
+[ADB] Using 'apksigner.jar' from '/Users/00145409nuralianatasha/.katalon/tools/android_sdk/build-tools/29.0.3/lib/apksigner.jar'
+[ADB] '/opt/homebrew/Cellar/appium/1.22.3/libexec/lib/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-v4.29.1.apk' is signed with the default certificate
+[ADB] '/opt/homebrew/Cellar/appium/1.22.3/libexec/lib/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-debug-androidTest.apk' is signed with the default certificate
+[UiAutomator2] Server packages are not going to be (re)installed
+[ADB] Adding packages ["io.appium.settings","io.appium.uiautomator2.server","io.appium.uiautomator2.server.test"] to Doze whitelist
+[UiAutomator2] Starting UIAutomator2 server 4.29.1
+[UiAutomator2] Using UIAutomator2 server from '/opt/homebrew/Cellar/appium/1.22.3/libexec/lib/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-v4.29.1.apk' and test from '/opt/homebrew/Cellar/appium/1.22.3/libexec/lib/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-debug-androidTest.apk'
+[UiAutomator2] Waiting up to 30000ms for UiAutomator2 to be online...
+[WD Proxy] socket hang up
+[WD Proxy] socket hang up
+[WD Proxy] Determined the downstream protocol as 'W3C'
+[AndroidDriver] Screen already unlocked, doing nothing
+[UiAutomator2] Starting 'com.android.settings/.Settings and waiting for 'com.android.settings/.Settings'
+[Appium] New AndroidUiautomator2Driver session created successfully, session a1ab0513-de5f-4eba-b1a0-214797e4f0a6 added to master session list
+[HTTP] <-- POST /wd/hub/session 200 7324 ms - 1350
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/a1ab0513-de5f-4eba-b1a0-214797e4f0a6
+[HTTP] {}
+[HTTP] <-- GET /wd/hub/session/a1ab0513-de5f-4eba-b1a0-214797e4f0a6 200 8 ms - 1304
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/a1ab0513-de5f-4eba-b1a0-214797e4f0a6
+[HTTP] {}
+[HTTP] <-- GET /wd/hub/session/a1ab0513-de5f-4eba-b1a0-214797e4f0a6 200 5 ms - 1304
+[HTTP] 
+[HTTP] --> GET /wd/hub/status
+[HTTP] {}
+[HTTP] <-- GET /wd/hub/status 200 0 ms - 68
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/a1ab0513-de5f-4eba-b1a0-214797e4f0a6/timeouts
+[HTTP] {"implicit":30000}
+[HTTP] <-- POST /wd/hub/session/a1ab0513-de5f-4eba-b1a0-214797e4f0a6/timeouts 200 1 ms - 14
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/a1ab0513-de5f-4eba-b1a0-214797e4f0a6/screenshot
+[HTTP] {}
+[HTTP] <-- GET /wd/hub/session/a1ab0513-de5f-4eba-b1a0-214797e4f0a6/screenshot 200 333 ms - 182828
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/a1ab0513-de5f-4eba-b1a0-214797e4f0a6/window/rect
+[HTTP] {}
+[HTTP] <-- GET /wd/hub/session/a1ab0513-de5f-4eba-b1a0-214797e4f0a6/window/rect 200 9 ms - 50
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/a1ab0513-de5f-4eba-b1a0-214797e4f0a6/appium/device/system_bars
+[HTTP] {}
+[HTTP] <-- GET /wd/hub/session/a1ab0513-de5f-4eba-b1a0-214797e4f0a6/appium/device/system_bars 200 108 ms - 145
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/a1ab0513-de5f-4eba-b1a0-214797e4f0a6/appium/device/activate_app
+[HTTP] {"bundleId":"com.maybank2u.life.uat"}
+[HTTP] <-- POST /wd/hub/session/a1ab0513-de5f-4eba-b1a0-214797e4f0a6/appium/device/activate_app 200 421 ms - 14
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/a1ab0513-de5f-4eba-b1a0-214797e4f0a6/timeouts
+[HTTP] {"implicit":50}
+[HTTP] <-- POST /wd/hub/session/a1ab0513-de5f-4eba-b1a0-214797e4f0a6/timeouts 200 1 ms - 14
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/a1ab0513-de5f-4eba-b1a0-214797e4f0a6/window/rect
+[HTTP] {}
+[HTTP] <-- GET /wd/hub/session/a1ab0513-de5f-4eba-b1a0-214797e4f0a6/window/rect 200 28 ms - 50
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/a1ab0513-de5f-4eba-b1a0-214797e4f0a6/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Login' or . = 'Login')]"}
+[HTTP] <-- POST /wd/hub/session/a1ab0513-de5f-4eba-b1a0-214797e4f0a6/elements 200 536 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/a1ab0513-de5f-4eba-b1a0-214797e4f0a6/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Login' or . = 'Login')]"}
+[HTTP] <-- POST /wd/hub/session/a1ab0513-de5f-4eba-b1a0-214797e4f0a6/elements 200 1542 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/a1ab0513-de5f-4eba-b1a0-214797e4f0a6/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Login' or . = 'Login')]"}
+[HTTP] <-- POST /wd/hub/session/a1ab0513-de5f-4eba-b1a0-214797e4f0a6/elements 200 75 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/a1ab0513-de5f-4eba-b1a0-214797e4f0a6/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Login' or . = 'Login')]"}
+[HTTP] <-- POST /wd/hub/session/a1ab0513-de5f-4eba-b1a0-214797e4f0a6/elements 200 56 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/a1ab0513-de5f-4eba-b1a0-214797e4f0a6/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Login' or . = 'Login')]"}
+[HTTP] <-- POST /wd/hub/session/a1ab0513-de5f-4eba-b1a0-214797e4f0a6/elements 200 105 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/a1ab0513-de5f-4eba-b1a0-214797e4f0a6/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Login' or . = 'Login')]"}
+[HTTP] <-- POST /wd/hub/session/a1ab0513-de5f-4eba-b1a0-214797e4f0a6/elements 200 95 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/a1ab0513-de5f-4eba-b1a0-214797e4f0a6/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Login' or . = 'Login')]"}
+[HTTP] <-- POST /wd/hub/session/a1ab0513-de5f-4eba-b1a0-214797e4f0a6/elements 200 55 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/a1ab0513-de5f-4eba-b1a0-214797e4f0a6/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Login' or . = 'Login')]"}
+[HTTP] <-- POST /wd/hub/session/a1ab0513-de5f-4eba-b1a0-214797e4f0a6/elements 200 91 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/a1ab0513-de5f-4eba-b1a0-214797e4f0a6/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Login' or . = 'Login')]"}
+[HTTP] <-- POST /wd/hub/session/a1ab0513-de5f-4eba-b1a0-214797e4f0a6/elements 200 94 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/a1ab0513-de5f-4eba-b1a0-214797e4f0a6/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Login' or . = 'Login')]"}
+[HTTP] <-- POST /wd/hub/session/a1ab0513-de5f-4eba-b1a0-214797e4f0a6/elements 200 91 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/a1ab0513-de5f-4eba-b1a0-214797e4f0a6/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Login' or . = 'Login')]"}
+[HTTP] <-- POST /wd/hub/session/a1ab0513-de5f-4eba-b1a0-214797e4f0a6/elements 200 74 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/a1ab0513-de5f-4eba-b1a0-214797e4f0a6/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Login' or . = 'Login')]"}
+[HTTP] <-- POST /wd/hub/session/a1ab0513-de5f-4eba-b1a0-214797e4f0a6/elements 200 92 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/a1ab0513-de5f-4eba-b1a0-214797e4f0a6/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Login' or . = 'Login')]"}
+[HTTP] <-- POST /wd/hub/session/a1ab0513-de5f-4eba-b1a0-214797e4f0a6/elements 200 129 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/a1ab0513-de5f-4eba-b1a0-214797e4f0a6/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Login' or . = 'Login')]"}
+[HTTP] <-- POST /wd/hub/session/a1ab0513-de5f-4eba-b1a0-214797e4f0a6/elements 200 60 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/a1ab0513-de5f-4eba-b1a0-214797e4f0a6/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Login' or . = 'Login')]"}
+[HTTP] <-- POST /wd/hub/session/a1ab0513-de5f-4eba-b1a0-214797e4f0a6/elements 200 59 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/a1ab0513-de5f-4eba-b1a0-214797e4f0a6/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Login' or . = 'Login')]"}
+[HTTP] <-- POST /wd/hub/session/a1ab0513-de5f-4eba-b1a0-214797e4f0a6/elements 200 87 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/a1ab0513-de5f-4eba-b1a0-214797e4f0a6/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Login' or . = 'Login')]"}
+[HTTP] <-- POST /wd/hub/session/a1ab0513-de5f-4eba-b1a0-214797e4f0a6/elements 200 101 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/a1ab0513-de5f-4eba-b1a0-214797e4f0a6/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Login' or . = 'Login')]"}
+[HTTP] <-- POST /wd/hub/session/a1ab0513-de5f-4eba-b1a0-214797e4f0a6/elements 200 73 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/a1ab0513-de5f-4eba-b1a0-214797e4f0a6/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Login' or . = 'Login')]"}
+[HTTP] <-- POST /wd/hub/session/a1ab0513-de5f-4eba-b1a0-214797e4f0a6/elements 200 94 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/a1ab0513-de5f-4eba-b1a0-214797e4f0a6/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Login' or . = 'Login')]"}
+[HTTP] <-- POST /wd/hub/session/a1ab0513-de5f-4eba-b1a0-214797e4f0a6/elements 200 89 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/a1ab0513-de5f-4eba-b1a0-214797e4f0a6/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Login' or . = 'Login')]"}
+[HTTP] <-- POST /wd/hub/session/a1ab0513-de5f-4eba-b1a0-214797e4f0a6/elements 200 93 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/a1ab0513-de5f-4eba-b1a0-214797e4f0a6/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Login' or . = 'Login')]"}
+[HTTP] <-- POST /wd/hub/session/a1ab0513-de5f-4eba-b1a0-214797e4f0a6/elements 200 1417 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/a1ab0513-de5f-4eba-b1a0-214797e4f0a6/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Login' or . = 'Login')]"}
+[HTTP] <-- POST /wd/hub/session/a1ab0513-de5f-4eba-b1a0-214797e4f0a6/elements 200 75 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/a1ab0513-de5f-4eba-b1a0-214797e4f0a6/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Login' or . = 'Login')]"}
+[HTTP] <-- POST /wd/hub/session/a1ab0513-de5f-4eba-b1a0-214797e4f0a6/elements 200 78 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/a1ab0513-de5f-4eba-b1a0-214797e4f0a6/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Login' or . = 'Login')]"}
+[HTTP] <-- POST /wd/hub/session/a1ab0513-de5f-4eba-b1a0-214797e4f0a6/elements 200 75 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/a1ab0513-de5f-4eba-b1a0-214797e4f0a6/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Login' or . = 'Login')]"}
+[HTTP] <-- POST /wd/hub/session/a1ab0513-de5f-4eba-b1a0-214797e4f0a6/elements 200 77 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/a1ab0513-de5f-4eba-b1a0-214797e4f0a6/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Login' or . = 'Login')]"}
+[HTTP] <-- POST /wd/hub/session/a1ab0513-de5f-4eba-b1a0-214797e4f0a6/elements 200 78 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/a1ab0513-de5f-4eba-b1a0-214797e4f0a6/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Login' or . = 'Login')]"}
+[HTTP] <-- POST /wd/hub/session/a1ab0513-de5f-4eba-b1a0-214797e4f0a6/elements 200 77 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/a1ab0513-de5f-4eba-b1a0-214797e4f0a6/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Login' or . = 'Login')]"}
+[HTTP] <-- POST /wd/hub/session/a1ab0513-de5f-4eba-b1a0-214797e4f0a6/elements 200 1528 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/a1ab0513-de5f-4eba-b1a0-214797e4f0a6/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Login' or . = 'Login')]"}
+[HTTP] <-- POST /wd/hub/session/a1ab0513-de5f-4eba-b1a0-214797e4f0a6/elements 200 92 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/a1ab0513-de5f-4eba-b1a0-214797e4f0a6/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Login' or . = 'Login')]"}
+[HTTP] <-- POST /wd/hub/session/a1ab0513-de5f-4eba-b1a0-214797e4f0a6/elements 200 72 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/a1ab0513-de5f-4eba-b1a0-214797e4f0a6/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Login' or . = 'Login')]"}
+[HTTP] <-- POST /wd/hub/session/a1ab0513-de5f-4eba-b1a0-214797e4f0a6/elements 200 78 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/a1ab0513-de5f-4eba-b1a0-214797e4f0a6/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Login' or . = 'Login')]"}
+[HTTP] <-- POST /wd/hub/session/a1ab0513-de5f-4eba-b1a0-214797e4f0a6/elements 200 104 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/a1ab0513-de5f-4eba-b1a0-214797e4f0a6/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Login' or . = 'Login')]"}
+[HTTP] <-- POST /wd/hub/session/a1ab0513-de5f-4eba-b1a0-214797e4f0a6/elements 200 102 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/a1ab0513-de5f-4eba-b1a0-214797e4f0a6/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Login' or . = 'Login')]"}
+[HTTP] <-- POST /wd/hub/session/a1ab0513-de5f-4eba-b1a0-214797e4f0a6/elements 200 88 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/a1ab0513-de5f-4eba-b1a0-214797e4f0a6/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Login' or . = 'Login')]"}
+[HTTP] <-- POST /wd/hub/session/a1ab0513-de5f-4eba-b1a0-214797e4f0a6/elements 200 69 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/a1ab0513-de5f-4eba-b1a0-214797e4f0a6/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Login' or . = 'Login')]"}
+[HTTP] <-- POST /wd/hub/session/a1ab0513-de5f-4eba-b1a0-214797e4f0a6/elements 200 72 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/a1ab0513-de5f-4eba-b1a0-214797e4f0a6/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Login' or . = 'Login')]"}
+[HTTP] <-- POST /wd/hub/session/a1ab0513-de5f-4eba-b1a0-214797e4f0a6/elements 200 775 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/a1ab0513-de5f-4eba-b1a0-214797e4f0a6/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Login' or . = 'Login')]"}
+[HTTP] <-- POST /wd/hub/session/a1ab0513-de5f-4eba-b1a0-214797e4f0a6/elements 200 87 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/a1ab0513-de5f-4eba-b1a0-214797e4f0a6/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Login' or . = 'Login')]"}
+[HTTP] <-- POST /wd/hub/session/a1ab0513-de5f-4eba-b1a0-214797e4f0a6/elements 200 88 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/a1ab0513-de5f-4eba-b1a0-214797e4f0a6/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Login' or . = 'Login')]"}
+[HTTP] <-- POST /wd/hub/session/a1ab0513-de5f-4eba-b1a0-214797e4f0a6/elements 200 66 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/a1ab0513-de5f-4eba-b1a0-214797e4f0a6/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Login' or . = 'Login')]"}
+[HTTP] <-- POST /wd/hub/session/a1ab0513-de5f-4eba-b1a0-214797e4f0a6/elements 200 88 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/a1ab0513-de5f-4eba-b1a0-214797e4f0a6/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Login' or . = 'Login')]"}
+[HTTP] <-- POST /wd/hub/session/a1ab0513-de5f-4eba-b1a0-214797e4f0a6/elements 200 63 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/a1ab0513-de5f-4eba-b1a0-214797e4f0a6/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Login' or . = 'Login')]"}
+[HTTP] <-- POST /wd/hub/session/a1ab0513-de5f-4eba-b1a0-214797e4f0a6/elements 200 65 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/a1ab0513-de5f-4eba-b1a0-214797e4f0a6/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Login' or . = 'Login')]"}
+[HTTP] <-- POST /wd/hub/session/a1ab0513-de5f-4eba-b1a0-214797e4f0a6/elements 200 62 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/a1ab0513-de5f-4eba-b1a0-214797e4f0a6/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Login' or . = 'Login')]"}
+[HTTP] <-- POST /wd/hub/session/a1ab0513-de5f-4eba-b1a0-214797e4f0a6/elements 200 67 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/a1ab0513-de5f-4eba-b1a0-214797e4f0a6/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Login' or . = 'Login')]"}
+[HTTP] <-- POST /wd/hub/session/a1ab0513-de5f-4eba-b1a0-214797e4f0a6/elements 200 63 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/a1ab0513-de5f-4eba-b1a0-214797e4f0a6/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Login' or . = 'Login')]"}
+[HTTP] <-- POST /wd/hub/session/a1ab0513-de5f-4eba-b1a0-214797e4f0a6/elements 200 62 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/a1ab0513-de5f-4eba-b1a0-214797e4f0a6/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Login' or . = 'Login')]"}
+[HTTP] <-- POST /wd/hub/session/a1ab0513-de5f-4eba-b1a0-214797e4f0a6/elements 200 64 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/a1ab0513-de5f-4eba-b1a0-214797e4f0a6/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Login' or . = 'Login')]"}
+[HTTP] <-- POST /wd/hub/session/a1ab0513-de5f-4eba-b1a0-214797e4f0a6/elements 200 62 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/a1ab0513-de5f-4eba-b1a0-214797e4f0a6/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Login' or . = 'Login')]"}
+[HTTP] <-- POST /wd/hub/session/a1ab0513-de5f-4eba-b1a0-214797e4f0a6/elements 200 65 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/a1ab0513-de5f-4eba-b1a0-214797e4f0a6/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Login' or . = 'Login')]"}
+[HTTP] <-- POST /wd/hub/session/a1ab0513-de5f-4eba-b1a0-214797e4f0a6/elements 200 60 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/a1ab0513-de5f-4eba-b1a0-214797e4f0a6/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Login' or . = 'Login')]"}
+[HTTP] <-- POST /wd/hub/session/a1ab0513-de5f-4eba-b1a0-214797e4f0a6/elements 200 66 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/a1ab0513-de5f-4eba-b1a0-214797e4f0a6/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Login' or . = 'Login')]"}
+[HTTP] <-- POST /wd/hub/session/a1ab0513-de5f-4eba-b1a0-214797e4f0a6/elements 200 151 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/a1ab0513-de5f-4eba-b1a0-214797e4f0a6/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Login' or . = 'Login')]"}
+[HTTP] <-- POST /wd/hub/session/a1ab0513-de5f-4eba-b1a0-214797e4f0a6/elements 200 117 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/a1ab0513-de5f-4eba-b1a0-214797e4f0a6/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Login' or . = 'Login')]"}
+[HTTP] <-- POST /wd/hub/session/a1ab0513-de5f-4eba-b1a0-214797e4f0a6/elements 200 60 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/a1ab0513-de5f-4eba-b1a0-214797e4f0a6/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Login' or . = 'Login')]"}
+[HTTP] <-- POST /wd/hub/session/a1ab0513-de5f-4eba-b1a0-214797e4f0a6/elements 200 123 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/a1ab0513-de5f-4eba-b1a0-214797e4f0a6/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Login' or . = 'Login')]"}
+[HTTP] <-- POST /wd/hub/session/a1ab0513-de5f-4eba-b1a0-214797e4f0a6/elements 200 72 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/a1ab0513-de5f-4eba-b1a0-214797e4f0a6/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Login' or . = 'Login')]"}
+[HTTP] <-- POST /wd/hub/session/a1ab0513-de5f-4eba-b1a0-214797e4f0a6/elements 200 66 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/a1ab0513-de5f-4eba-b1a0-214797e4f0a6/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Login' or . = 'Login')]"}
+[HTTP] <-- POST /wd/hub/session/a1ab0513-de5f-4eba-b1a0-214797e4f0a6/elements 200 68 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/a1ab0513-de5f-4eba-b1a0-214797e4f0a6/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Login' or . = 'Login')]"}
+[HTTP] <-- POST /wd/hub/session/a1ab0513-de5f-4eba-b1a0-214797e4f0a6/elements 200 64 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/a1ab0513-de5f-4eba-b1a0-214797e4f0a6/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Login' or . = 'Login')]"}
+[HTTP] <-- POST /wd/hub/session/a1ab0513-de5f-4eba-b1a0-214797e4f0a6/elements 200 66 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/a1ab0513-de5f-4eba-b1a0-214797e4f0a6/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Login' or . = 'Login')]"}
+[HTTP] <-- POST /wd/hub/session/a1ab0513-de5f-4eba-b1a0-214797e4f0a6/elements 200 80 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/a1ab0513-de5f-4eba-b1a0-214797e4f0a6/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Login' or . = 'Login')]"}
+[HTTP] <-- POST /wd/hub/session/a1ab0513-de5f-4eba-b1a0-214797e4f0a6/elements 200 65 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/a1ab0513-de5f-4eba-b1a0-214797e4f0a6/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Login' or . = 'Login')]"}
+[HTTP] <-- POST /wd/hub/session/a1ab0513-de5f-4eba-b1a0-214797e4f0a6/elements 200 65 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/a1ab0513-de5f-4eba-b1a0-214797e4f0a6/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Login' or . = 'Login')]"}
+[HTTP] <-- POST /wd/hub/session/a1ab0513-de5f-4eba-b1a0-214797e4f0a6/elements 200 64 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/a1ab0513-de5f-4eba-b1a0-214797e4f0a6/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Login' or . = 'Login')]"}
+[HTTP] <-- POST /wd/hub/session/a1ab0513-de5f-4eba-b1a0-214797e4f0a6/elements 200 66 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/a1ab0513-de5f-4eba-b1a0-214797e4f0a6/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Login' or . = 'Login')]"}
+[HTTP] <-- POST /wd/hub/session/a1ab0513-de5f-4eba-b1a0-214797e4f0a6/elements 200 63 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/a1ab0513-de5f-4eba-b1a0-214797e4f0a6/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Login' or . = 'Login')]"}
+[HTTP] <-- POST /wd/hub/session/a1ab0513-de5f-4eba-b1a0-214797e4f0a6/elements 200 64 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/a1ab0513-de5f-4eba-b1a0-214797e4f0a6/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Login' or . = 'Login')]"}
+[HTTP] <-- POST /wd/hub/session/a1ab0513-de5f-4eba-b1a0-214797e4f0a6/elements 200 62 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/a1ab0513-de5f-4eba-b1a0-214797e4f0a6/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Login' or . = 'Login')]"}
+[HTTP] <-- POST /wd/hub/session/a1ab0513-de5f-4eba-b1a0-214797e4f0a6/elements 200 63 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/a1ab0513-de5f-4eba-b1a0-214797e4f0a6/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Login' or . = 'Login')]"}
+[HTTP] <-- POST /wd/hub/session/a1ab0513-de5f-4eba-b1a0-214797e4f0a6/elements 200 62 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/a1ab0513-de5f-4eba-b1a0-214797e4f0a6/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Login' or . = 'Login')]"}
+[HTTP] <-- POST /wd/hub/session/a1ab0513-de5f-4eba-b1a0-214797e4f0a6/elements 200 64 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/a1ab0513-de5f-4eba-b1a0-214797e4f0a6/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Login' or . = 'Login')]"}
+[HTTP] <-- POST /wd/hub/session/a1ab0513-de5f-4eba-b1a0-214797e4f0a6/elements 200 63 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/a1ab0513-de5f-4eba-b1a0-214797e4f0a6/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Login' or . = 'Login')]"}
+[HTTP] <-- POST /wd/hub/session/a1ab0513-de5f-4eba-b1a0-214797e4f0a6/elements 200 63 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/a1ab0513-de5f-4eba-b1a0-214797e4f0a6/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Login' or . = 'Login')]"}
+[HTTP] <-- POST /wd/hub/session/a1ab0513-de5f-4eba-b1a0-214797e4f0a6/elements 200 63 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/a1ab0513-de5f-4eba-b1a0-214797e4f0a6/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Login' or . = 'Login')]"}
+[HTTP] <-- POST /wd/hub/session/a1ab0513-de5f-4eba-b1a0-214797e4f0a6/elements 200 64 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/a1ab0513-de5f-4eba-b1a0-214797e4f0a6/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Login' or . = 'Login')]"}
+[HTTP] <-- POST /wd/hub/session/a1ab0513-de5f-4eba-b1a0-214797e4f0a6/elements 200 63 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/a1ab0513-de5f-4eba-b1a0-214797e4f0a6/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Login' or . = 'Login')]"}
+[HTTP] <-- POST /wd/hub/session/a1ab0513-de5f-4eba-b1a0-214797e4f0a6/elements 200 59 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/a1ab0513-de5f-4eba-b1a0-214797e4f0a6/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Login' or . = 'Login')]"}
+[HTTP] <-- POST /wd/hub/session/a1ab0513-de5f-4eba-b1a0-214797e4f0a6/elements 200 63 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/a1ab0513-de5f-4eba-b1a0-214797e4f0a6/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Login' or . = 'Login')]"}
+[HTTP] <-- POST /wd/hub/session/a1ab0513-de5f-4eba-b1a0-214797e4f0a6/elements 200 61 ms - 12
+[HTTP] 
+[BaseDriver] Shutting down because we waited 10000 seconds for a command
+[Appium] Closing session, cause was 'New Command Timeout of 10000 seconds expired. Try customizing the timeout using the 'newCommandTimeout' desired capability'
+[Appium] Removing session 'a1ab0513-de5f-4eba-b1a0-214797e4f0a6' from our master session list
+[UiAutomator2] Did not get confirmation UiAutomator2 deleteSession worked; Error was: UnknownError: An unknown server-side error occurred while processing the command. Original error: 'DELETE /' cannot be proxied to UiAutomator2 server because the instrumentation process is not running (probably crashed). Check the server log and/or the logcat output for more details
+[UiAutomator2] Restoring hidden api policy to the device default configuration
+[Appium] Received SIGTERM - shutting down

@@ -1,0 +1,6 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Push_Notification,,,,2024-03-13 09:15:58,2024-03-13 09:16:00,2.154s,FAILED
+,,,,,,,
+Test Cases/RETAILFX-SOW2 Market Order/Entry Point - Quick Action/SOW2 - Push Notification,,,,2024-03-13 09:15:58,2024-03-13 09:16:00,1.784s,FAILED
+a = 8,,,,2024-03-13 09:15:59,2024-03-13 09:15:59,0.003s,PASSED
+utilities.Entry_Point.Quick_Action(8),,,,2024-03-13 09:15:59,2024-03-13 09:16:00,0.879s,FAILED

@@ -1,0 +1,49 @@
+{
+  "keywordFileContentHash": "41B67978DFDCAAA7EC092508CAD9ACBA",
+  "keywordClasses": [
+    {
+      "name": "utilities.General_Onboarding",
+      "keywordMethods": [
+        {
+          "name": "Onboarding_Retailfx",
+          "parameters": [
+            {
+              "name": "i",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "int",
+                "unresolvedClassName": "int",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": true,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": ""
+        },
+        {
+          "name": "Onboarding_Different_User",
+          "parameters": [
+            {
+              "name": "i",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "int",
+                "unresolvedClassName": "int",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": true,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

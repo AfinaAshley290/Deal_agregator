@@ -77,7 +77,6 @@ class Market_Order {
 
 	@Keyword
 	def Confirmation_Page() {
-		
 	}
 
 	@Keyword

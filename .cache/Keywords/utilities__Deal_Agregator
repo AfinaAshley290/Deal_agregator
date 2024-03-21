@@ -1,5 +1,5 @@
 {
-  "keywordFileContentHash": "4ABCF0B21E0CB441A4170D53FF765720",
+  "keywordFileContentHash": "9B5A26EADD56B0D4DC2115644263CA02",
   "keywordClasses": [
     {
       "name": "utilities.Deal_Agregator",
@@ -20,8 +20,7 @@
                 "errorOnParsing": false
               }
             }
-          ],
-          "javadoc": ""
+          ]
         },
         {
           "name": "MarketOrder_FromDropdown",
@@ -39,11 +38,10 @@
                 "errorOnParsing": false
               }
             }
-          ],
-          "javadoc": ""
+          ]
         }
       ]
     }
   ],
-  "javadocParsed": true
+  "javadocParsed": false
 }

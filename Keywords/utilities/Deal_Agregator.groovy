@@ -89,8 +89,38 @@ class Deal_Agregator {
 			case 'SGD':
 				Mobile.tap(findTestObject('Global Account Page/dynamicText', [('text') : 'SGD - Singapore Dollar']), 5, FailureHandling.CONTINUE_ON_FAILURE)
 				break;
+			case 'AED':
+				Mobile.tap(findTestObject('Global Account Page/dynamicText', [('text') : 'AED - UAE Dirham']), 5, FailureHandling.CONTINUE_ON_FAILURE)
+				break;
+			case 'BND':
+				Mobile.tap(findTestObject('Global Account Page/dynamicText', [('text') : 'BND - Brunei Dollar']), 5, FailureHandling.CONTINUE_ON_FAILURE)
+				break;
 			case 'CAD':
 				Mobile.tap(findTestObject('Global Account Page/dynamicText', [('text') : 'CAD - Canadian Dollar']), 5, FailureHandling.CONTINUE_ON_FAILURE)
+				break;
+			case 'CHF':
+				Mobile.tap(findTestObject('Global Account Page/dynamicText', [('text') : 'CHF - Swiss Franc']), 5, FailureHandling.CONTINUE_ON_FAILURE)
+				break;
+			case 'DKK':
+				Mobile.tap(findTestObject('Global Account Page/dynamicText', [('text') : 'DKK - Danish  Krone']), 5, FailureHandling.CONTINUE_ON_FAILURE)
+				break;
+			case 'HKD':
+				Mobile.tap(findTestObject('Global Account Page/dynamicText', [('text') : 'HKD - Hong Kong Dollar']), 5, FailureHandling.CONTINUE_ON_FAILURE)
+				break;
+			case 'NOK':
+				Mobile.tap(findTestObject('Global Account Page/dynamicText', [('text') : 'NOK - Norwegian Krone']), 5, FailureHandling.CONTINUE_ON_FAILURE)
+				break;
+			case 'NZD':
+				Mobile.tap(findTestObject('Global Account Page/dynamicText', [('text') : 'NZD - New Zealand Dollar']), 5, FailureHandling.CONTINUE_ON_FAILURE)
+				break;
+			case 'QAR':
+				Mobile.tap(findTestObject('Global Account Page/dynamicText', [('text') : 'QAR - Qatari Rial']), 5, FailureHandling.CONTINUE_ON_FAILURE)
+				break;
+			case 'SAR':
+				Mobile.tap(findTestObject('Global Account Page/dynamicText', [('text') : 'SAR - Saudi Riyal']), 5, FailureHandling.CONTINUE_ON_FAILURE)
+				break;
+			case 'SEK':
+				Mobile.tap(findTestObject('Global Account Page/dynamicText', [('text') : 'SEK - Swedish Krona']), 5, FailureHandling.CONTINUE_ON_FAILURE)
 				break;
 			case 'MYR':
 				Mobile.tap(findTestObject('Global Account Page/dynamicText', [('text') : 'MYR - Malaysian Ringgit']), 5, FailureHandling.CONTINUE_ON_FAILURE)
@@ -134,10 +164,39 @@ class Deal_Agregator {
 			case 'SGD':
 				Mobile.tap(findTestObject('Global Account Page/dynamicText', [('text') : 'SGD - Singapore Dollar']), 5, FailureHandling.CONTINUE_ON_FAILURE)
 				break;
+			case 'AED':
+				Mobile.tap(findTestObject('Global Account Page/dynamicText', [('text') : 'AED - UAE Dirham']), 5, FailureHandling.CONTINUE_ON_FAILURE)
+				break;
+			case 'BND':
+				Mobile.tap(findTestObject('Global Account Page/dynamicText', [('text') : 'BND - Brunei Dollar']), 5, FailureHandling.CONTINUE_ON_FAILURE)
+				break;
 			case 'CAD':
 				Mobile.tap(findTestObject('Global Account Page/dynamicText', [('text') : 'CAD - Canadian Dollar']), 5, FailureHandling.CONTINUE_ON_FAILURE)
 				break;
-
+			case 'CHF':
+				Mobile.tap(findTestObject('Global Account Page/dynamicText', [('text') : 'CHF - Swiss Franc']), 5, FailureHandling.CONTINUE_ON_FAILURE)
+				break;
+			case 'DKK':
+				Mobile.tap(findTestObject('Global Account Page/dynamicText', [('text') : 'DKK - Danish  Krone']), 5, FailureHandling.CONTINUE_ON_FAILURE)
+				break;
+			case 'HKD':
+				Mobile.tap(findTestObject('Global Account Page/dynamicText', [('text') : 'HKD - Hong Kong Dollar']), 5, FailureHandling.CONTINUE_ON_FAILURE)
+				break;
+			case 'NOK':
+				Mobile.tap(findTestObject('Global Account Page/dynamicText', [('text') : 'NOK - Norwegian Krone']), 5, FailureHandling.CONTINUE_ON_FAILURE)
+				break;
+			case 'NZD':
+				Mobile.tap(findTestObject('Global Account Page/dynamicText', [('text') : 'NZD - New Zealand Dollar']), 5, FailureHandling.CONTINUE_ON_FAILURE)
+				break;
+			case 'QAR':
+				Mobile.tap(findTestObject('Global Account Page/dynamicText', [('text') : 'QAR - Qatari Rial']), 5, FailureHandling.CONTINUE_ON_FAILURE)
+				break;
+			case 'SAR':
+				Mobile.tap(findTestObject('Global Account Page/dynamicText', [('text') : 'SAR - Saudi Riyal']), 5, FailureHandling.CONTINUE_ON_FAILURE)
+				break;
+			case 'SEK':
+				Mobile.tap(findTestObject('Global Account Page/dynamicText', [('text') : 'SEK - Swedish Krona']), 5, FailureHandling.CONTINUE_ON_FAILURE)
+				break;
 			case 'MYR':
 				Mobile.tap(findTestObject('Global Account Page/dynamicText', [('text') : 'MYR - Malaysian Ringgit']), 5, FailureHandling.CONTINUE_ON_FAILURE)
 				break;

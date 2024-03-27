@@ -39,25 +39,6 @@ for (def row=1; row<=findTestData('Market_Order_Conventional').getRowNumbers(); 
 	'Tap on Convert Currency'
 	Mobile.tap(findTestObject('Global Account Page/dynamicText', [('text') : 'Convert Currency']), 0, FailureHandling.CONTINUE_ON_FAILURE)
 	
-	'Check for the 1st Login'
-	checkLinkedDevice = Validation.checkElementExists('Object Repository/Market Order Page/android.widget.TextView - Enter your password')
-	
-	'Check is there is password page'
-	if (checkLinkedDevice == true) {
-		'Verify is in Manage Device page'
-		Mobile.setText(findTestObject('Object Repository/Dashboard_Login/Onboarding_Login/Password'), findTestData('Username_Password').getValue(
-				'Password', a), 5, FailureHandling.CONTINUE_ON_FAILURE)
-	
-		Mobile.hideKeyboard(FailureHandling.CONTINUE_ON_FAILURE)
-	
-		'Manage Devices page'
-		Mobile.takeScreenshot()
-	
-		'Tap on proceed button'
-		Mobile.tap(findTestObject('Global Account Page/dynamicText', [('text') : 'Continue']), 10, FailureHandling.CONTINUE_ON_FAILURE)
-	} else {
-		FailureHandling.CONTINUE_ON_FAILURE
-	}
 	
 	Mobile.delay(10)
 	
@@ -78,7 +59,7 @@ for (def row=1; row<=findTestData('Market_Order_Conventional').getRowNumbers(); 
 	
 	pinNum = findTestData('Market_Order_Conventional').getValue('Amount', row)
 	
-	Mobile.delay(20)
+	Mobile.delay(10)
 	
 	currency_Numpad(pinNum)
 	
